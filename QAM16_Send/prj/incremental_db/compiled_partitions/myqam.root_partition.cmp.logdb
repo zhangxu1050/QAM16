@@ -1,0 +1,7 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,myqam:myqam|mult19_10:mult19_10q|lpm_mult:lpm_mult_component|mult_g6p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,myqam:myqam|mult19_10:mult19_10i|lpm_mult:lpm_mult_component|mult_g6p:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,myqam:myqam|mult19_10:mult19_10i|lpm_mult:lpm_mult_component|mult_g6p:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,myqam:myqam|mult19_10:mult19_10q|lpm_mult:lpm_mult_component|mult_g6p:auto_generated|mac_out4,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,myqam:myqam|mult19_10:mult19_10i|lpm_mult:lpm_mult_component|mult_g6p:auto_generated|mac_mult3,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,myqam:myqam|mult19_10:mult19_10q|lpm_mult:lpm_mult_component|mult_g6p:auto_generated|mac_mult3,

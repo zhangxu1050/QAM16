@@ -1,0 +1,38 @@
+`timescale 1ns/1ns
+
+module tb_BoardTst();
+	
+	reg	r_CLK	;
+	reg	r_Rst	;
+	wire	FPGA_CLK_A_N;
+	wire	FPGA_CLK_A_P;
+	wire	LEDG0
+	wire	signed [13:0]	DA;
+	wire	signed [13:0]	DB;
+	
+	initial begin
+        r_CLK	= 1'b1 ;
+        forever begin
+            # 20 ;
+            r_CLK	<= ~r_CLK ;
+        end
+    end
+	 
+	 initial begin
+        r_Rst	= 1'b1 	;
+        # 37500 			;
+		  r_Rst	= 1'b0 	;
+    end
+
+
+	BoardTst BoardTst(
+				.CLK				(r_CLK),
+				.Rst				(r_Rst),
+				.FPGA_CLK_A_N	(FPGA_CLK_A_N),
+				.FPGA_CLK_A_P	(FPGA_CLK_A_P),
+				.LEDG0			(LEDG0)	,
+				.DA				(DA)	,
+				.DB				(DB)
+	);
+
+endmodule 

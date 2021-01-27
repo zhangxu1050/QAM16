@@ -1,0 +1,9 @@
+//这是mgate.v文件的程序清单
+module mgate (
+	rst,clk,din,
+	mean);
+	
+	input    rst;              //复位信号，高电平有效
+	input		clk;   				//FPGA系统时钟:8MHz
+	input	 signed [25:0]	din;  //解调后的基带波形输入数据
+	output signed [25:0]	mean; //基带信号的均值输出数据

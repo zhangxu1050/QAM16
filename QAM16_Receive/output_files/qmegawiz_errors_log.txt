@@ -1,0 +1,21 @@
+
+
+C:/Users/Administrator/Desktop/QamCarrierDD/fir_lpf.v
+
+Jun 12 10AM:45:22>: Megafunction FIR Compiler v12.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Administrator/Desktop/QamCarrierDD/fir_lpf.v
+
+Jun 12 10AM:45:23>: Megafunction FIR Compiler v12.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Administrator/Desktop/QamCarrierDD/fir_lpf.v
+
+Jun 12 10AM:45:26>: Megafunction FIR Compiler v12.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Administrator/Desktop/QamCarrierDD/fir_lpf.v
+
+Jun 12 10AM:45:33>: Megafunction FIR Compiler v12.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

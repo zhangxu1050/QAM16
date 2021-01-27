@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jun 17 16:25:19 2020
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : myqam
+Top-level Entity Name : BoardTst
+Family : Cyclone IV E
+Total logic elements : 2,912
+    Total combinational functions : 2,056
+    Dedicated logic registers : 2,616
+Total registers : 2616
+Total pins : 33
+Total virtual pins : 0
+Total memory bits : 459,812
+Embedded Multiplier 9-bit elements : 8
+Total PLLs : 1

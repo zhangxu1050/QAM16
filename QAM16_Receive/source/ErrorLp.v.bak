@@ -1,0 +1,10 @@
+//这是ErrorLp.v文件的程序清单
+module ErrorLp (
+	rst,clk,din,uk,
+	dout); 
+	
+	input		rst;   //复位信号，高电平有效
+	input		clk;   //时钟信号/数据输入速率/4倍符号速率/4 MHz
+	input  signed [15:0]	din;     //基带I或Q支路数据/4 MHz，15 bit小数位
+	input  signed [15:0]	uk;      //插值间隔，15 bit小数位
+	output signed [17:0]	dout;    //插值滤波输出/4 MHz，范围为−4～4，15bit小数位

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim
+vBoardTst
+!s110 1592098603
+!i10b 1
+!s100 NVHC4fI2EVE6ZPj=9VXz]1
+I5OZB^Fa4KVIKgONTVP=kM2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1591928183
+8QamCarrier_7_1200mv_85c_slow.vo
+FQamCarrier_7_1200mv_85c_slow.vo
+L0 32
+Z2 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1592098599.000000
+!s107 QamCarrier_7_1200mv_85c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|QamCarrier_7_1200mv_85c_slow.vo|
+!i113 1
+Z3 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+n@board@tst
+vtb_BoardTst
+!s110 1592098604
+!i10b 1
+!s100 86>1mPaCCQz:j6XKOIEVS0
+ImiR7Y2fZFzFE1P=bGA3fj0
+R1
+R0
+w1592094203
+8C:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim/tb_BoardTst.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim/tb_BoardTst.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1592098603.000000
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim/tb_BoardTst.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim|C:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim/tb_BoardTst.v|
+!i113 1
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim
+ntb_@board@tst

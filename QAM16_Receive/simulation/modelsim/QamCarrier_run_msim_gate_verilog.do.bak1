@@ -1,0 +1,17 @@
+transcript on
+if {[file exists gate_work]} {
+	vdel -lib gate_work -all
+}
+vlib gate_work
+vmap work gate_work
+
+vlog -vlog01compat -work work +incdir+. {QamCarrier_8_1200mv_85c_slow.vo}
+
+vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/myqam/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/simulation/modelsim {C:/Users/Administrator/Desktop/myqam/Chapter_8/E8_5_FpgaGardner/QamCarrierDD/simulation/modelsim/QamCarrier.vt}
+
+vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  QamCarrier_vlg_tst
+
+add wave *
+view structure
+view signals
+run -all

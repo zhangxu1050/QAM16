@@ -1,0 +1,599 @@
+# Reading C:/altera/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do myqam_run_msim_rtl_verilog.do
+# if ![file isdirectory myqam_iputf_libs] {
+# 	file mkdir myqam_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying C:/altera/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+# vlib myqam_iputf_libs/nco_ii_0
+# ** Warning: (vlib-34) Library already exists at "myqam_iputf_libs/nco_ii_0".
+# 
+# vmap nco_ii_0 ./myqam_iputf_libs/nco_ii_0
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap nco_ii_0 ./myqam_iputf_libs/nco_ii_0 
+# Modifying modelsim.ini
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# file copy -force C:/class/class36/prj/ip/nco/simulation/submodules/nco_nco_ii_0_sin.hex ./
+# file copy -force C:/class/class36/prj/ip/nco/simulation/submodules/nco_nco_ii_0_cos.hex ./
+# 
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/mentor/sid_2c_1p.v"                -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:44 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/mentor/sid_2c_1p.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 09:08:44 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_nco_mob_rw.v"           -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:45 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_nco_mob_rw.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 09:08:45 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_gar.v"                  -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:45 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_gar.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 09:08:46 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_nco_isdr.v"             -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:46 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_nco_isdr.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 09:08:47 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_nco_apr_dxx.v"          -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:47 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_nco_apr_dxx.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 09:08:48 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/mentor/segment_arr_tdl.v"          -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:48 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/mentor/segment_arr_tdl.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 09:08:48 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/mentor/segment_sel.v"              -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:48 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/mentor/segment_sel.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 09:08:49 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_dxx_g.v"                -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:49 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_dxx_g.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 09:08:50 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_dxx.v"                  -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:50 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_dxx.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 09:08:51 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_xnqg.v"                 -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:51 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_xnqg.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 09:08:51 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_nco_as_m_cen.v"         -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:52 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_nco_as_m_cen.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 09:08:52 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_altqmcpipe.v"           -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:52 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/mentor/asj_altqmcpipe.v -work nco_ii_0 
+# 
+# Top level modules:
+# End time: 09:08:53 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/submodules/nco_nco_ii_0.v"                    -work nco_ii_0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:53 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/submodules/nco_nco_ii_0.v -work nco_ii_0 
+# -- Compiling module nco_nco_ii_0
+# 
+# Top level modules:
+# 	nco_nco_ii_0
+# End time: 09:08:53 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/nco/simulation/nco.v"                                                      
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:53 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/nco/simulation/nco.v 
+# -- Compiling module nco
+# 
+# Top level modules:
+# 	nco
+# End time: 09:08:54 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom "C:/class/class36/prj/ip/fir_lpf_sim/dspba_library_package.vhd"                                     
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:54 on Jun 03,2020
+# vcom -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/dspba_library_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package dspba_library_package
+# End time: 09:08:54 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/class/class36/prj/ip/fir_lpf_sim/dspba_library.vhd"                                             
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:54 on Jun 03,2020
+# vcom -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/dspba_library.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package dspba_library_package
+# -- Compiling entity dspba_delay
+# -- Compiling architecture delay of dspba_delay
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dspba_sync_reg
+# -- Compiling architecture sync_reg of dspba_sync_reg
+# End time: 09:08:54 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_math_pkg_hpfir.vhd"                                  
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:55 on Jun 03,2020
+# vcom -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_math_pkg_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package auk_dspip_math_pkg_hpfir
+# -- Compiling package body auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_math_pkg_hpfir
+# End time: 09:08:55 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_lib_pkg_hpfir.vhd"                                   
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:55 on Jun 03,2020
+# vcom -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_lib_pkg_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Compiling package auk_dspip_lib_pkg_hpfir
+# End time: 09:08:55 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"               
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:55 on Jun 03,2020
+# vcom -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity auk_dspip_avalon_streaming_controller_hpfir
+# -- Compiling architecture struct of auk_dspip_avalon_streaming_controller_hpfir
+# End time: 09:08:55 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"                     
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:55 on Jun 03,2020
+# vcom -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Loading package altera_mf_components
+# -- Compiling entity auk_dspip_avalon_streaming_sink_hpfir
+# -- Compiling architecture rtl of auk_dspip_avalon_streaming_sink_hpfir
+# ** Warning: C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(113): Nonresolved signal 'sink_next_state' may have multiple sources.
+#   Drivers:
+#     C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(177):Process sink_comb_update_1
+#        Driven at:
+#           C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(183)
+#     C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(272):Process sink_comb_update_2
+#        Driven at:
+#           C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd(279)
+# End time: 09:08:56 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vcom "C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"                   
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:56 on Jun 03,2020
+# vcom -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_source_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package altera_mf_components
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Compiling entity auk_dspip_avalon_streaming_source_hpfir
+# -- Compiling architecture rtl of auk_dspip_avalon_streaming_source_hpfir
+# ** Warning: C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(122): Nonresolved signal 'count_finished' may have multiple sources.
+#   Drivers:
+#     C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(206):Conditional signal assignment line__205
+#     C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(217):Conditional signal assignment line__216
+# ** Warning: C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(123): Nonresolved signal 'count_started' may have multiple sources.
+#   Drivers:
+#     C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(210):Conditional signal assignment line__209
+#     C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_avalon_streaming_source_hpfir.vhd(219):Conditional signal assignment line__218
+# End time: 09:08:56 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vcom "C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_roundsat_hpfir.vhd"                                  
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:56 on Jun 03,2020
+# vcom -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/auk_dspip_roundsat_hpfir.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity auk_dspip_roundsat_hpfir
+# -- Compiling architecture beh of auk_dspip_roundsat_hpfir
+# End time: 09:08:57 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "C:/class/class36/prj/ip/fir_lpf_sim/altera_avalon_sc_fifo.v"                                       
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:57 on Jun 03,2020
+# vlog -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 09:08:57 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/class/class36/prj/ip/fir_lpf_sim/fir_lpf_rtl_core.vhd"                                          
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:57 on Jun 03,2020
+# vcom -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/fir_lpf_rtl_core.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity fir_lpf_rtl_core
+# -- Compiling architecture normal of fir_lpf_rtl_core
+# End time: 09:08:58 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom "C:/class/class36/prj/ip/fir_lpf_sim/fir_lpf_ast.vhd"                                               
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:58 on Jun 03,2020
+# vcom -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/fir_lpf_ast.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Compiling entity fir_lpf_ast
+# -- Compiling architecture struct of fir_lpf_ast
+# End time: 09:08:58 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/class/class36/prj/ip/fir_lpf_sim/fir_lpf.vhd"                                                   
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:58 on Jun 03,2020
+# vcom -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/fir_lpf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Compiling entity fir_lpf
+# -- Compiling architecture syn of fir_lpf
+# End time: 09:08:58 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom "C:/class/class36/prj/ip/fir_lpf_sim/fir_lpf_tb.vhd"                                                
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:58 on Jun 03,2020
+# vcom -reportprogress 300 C:/class/class36/prj/ip/fir_lpf_sim/fir_lpf_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fir_lpf_tb
+# -- Compiling architecture rtl of fir_lpf_tb
+# -- Loading package auk_dspip_math_pkg_hpfir
+# -- Loading package auk_dspip_lib_pkg_hpfir
+# -- Loading entity fir_lpf
+# End time: 09:08:59 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/class/class36/rtl {C:/class/class36/rtl/nco_top.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:59 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/rtl" C:/class/class36/rtl/nco_top.v 
+# -- Compiling module nco_top
+# 
+# Top level modules:
+# 	nco_top
+# End time: 09:08:59 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/class/class36/prj/ip {C:/class/class36/prj/ip/bit_source.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:59 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/prj/ip" C:/class/class36/prj/ip/bit_source.v 
+# -- Compiling module bit_source
+# 
+# Top level modules:
+# 	bit_source
+# End time: 09:08:59 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/class/class36/rtl {C:/class/class36/rtl/source.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:08:59 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/rtl" C:/class/class36/rtl/source.v 
+# -- Compiling module source
+# 
+# Top level modules:
+# 	source
+# End time: 09:09:00 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/class/class36/rtl {C:/class/class36/rtl/BitTrans.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:09:00 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/rtl" C:/class/class36/rtl/BitTrans.v 
+# -- Compiling module BitTrans
+# 
+# Top level modules:
+# 	BitTrans
+# End time: 09:09:00 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/class/class36/testbench {C:/class/class36/testbench/tb_BitTrans.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:09:00 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/testbench" C:/class/class36/testbench/tb_BitTrans.v 
+# -- Compiling module tb_BitTrans
+# 
+# Top level modules:
+# 	tb_BitTrans
+# End time: 09:09:00 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/class/class36/rtl {C:/class/class36/rtl/CodeMap.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:09:00 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/rtl" C:/class/class36/rtl/CodeMap.v 
+# -- Compiling module CodeMap
+# 
+# Top level modules:
+# 	CodeMap
+# End time: 09:09:01 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/class/class36/prj/ip {C:/class/class36/prj/ip/mult19_10.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:09:01 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/prj/ip" C:/class/class36/prj/ip/mult19_10.v 
+# -- Compiling module mult19_10
+# 
+# Top level modules:
+# 	mult19_10
+# End time: 09:09:01 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/class/class36/rtl {C:/class/class36/rtl/myqam.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:09:01 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/rtl" C:/class/class36/rtl/myqam.v 
+# -- Compiling module myqam
+# 
+# Top level modules:
+# 	myqam
+# End time: 09:09:01 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/class/class36/rtl {C:/class/class36/rtl/upsample.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:09:01 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/rtl" C:/class/class36/rtl/upsample.v 
+# -- Compiling module upsample
+# 
+# Top level modules:
+# 	upsample
+# End time: 09:09:02 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/class/class36/rtl {C:/class/class36/rtl/BoardTst.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:09:02 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/rtl" C:/class/class36/rtl/BoardTst.v 
+# -- Compiling module BoardTst
+# 
+# Top level modules:
+# 	BoardTst
+# End time: 09:09:02 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/class/class36/prj/ip {C:/class/class36/prj/ip/pll.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:09:02 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/prj/ip" C:/class/class36/prj/ip/pll.v 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 09:09:02 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/class/class36/prj/db {C:/class/class36/prj/db/pll_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:09:02 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/prj/db" C:/class/class36/prj/db/pll_altpll.v 
+# -- Compiling module pll_altpll
+# 
+# Top level modules:
+# 	pll_altpll
+# End time: 09:09:03 on Jun 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/class/class36/prj/../testbench {C:/class/class36/prj/../testbench/tb_BoardTst.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 09:09:03 on Jun 03,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/class/class36/prj/../testbench" C:/class/class36/prj/../testbench/tb_BoardTst.v 
+# -- Compiling module tb_BoardTst
+# 
+# Top level modules:
+# 	tb_BoardTst
+# End time: 09:09:03 on Jun 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L nco_ii_0 -voptargs="+acc"  tb_BoardTst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L nco_ii_0 -voptargs=""+acc"" tb_BoardTst 
+# Start time: 09:09:03 on Jun 03,2020
+# Loading work.tb_BoardTst
+# Loading work.BoardTst
+# Loading work.myqam
+# Loading work.source
+# Loading work.bit_source
+# Loading altera_mf_ver.altsyncram
+# Loading work.BitTrans
+# Loading work.CodeMap
+# Loading work.upsample
+# Loading work.nco
+# Loading nco_ii_0.nco_nco_ii_0
+# Loading lpm_ver.lpm_add_sub
+# Loading lpm_ver.lpm_counter
+# Loading work.mult19_10
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# Loading work.pll
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.auk_dspip_math_pkg_hpfir(body)
+# Loading work.auk_dspip_lib_pkg_hpfir
+# Loading work.fir_lpf(syn)
+# Loading work.fir_lpf_ast(struct)
+# Loading altera_mf.altera_mf_components
+# Loading work.auk_dspip_avalon_streaming_sink_hpfir(rtl)
+# Loading work.auk_dspip_avalon_streaming_source_hpfir(rtl)
+# Loading ieee.std_logic_arith(body)
+# Loading work.auk_dspip_avalon_streaming_controller_hpfir(struct)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading lpm.lpm_components
+# Loading work.fir_lpf_rtl_core(normal)
+# Loading work.dspba_delay(delay)
+# Loading work.auk_dspip_roundsat_hpfir(beh)
+# ** Warning: (vsim-3017) C:/class/class36/rtl/BoardTst.v(22): [TFMPC] - Too few port connections. Expected 5, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_BoardTst/BoardTst/myqam File: C:/class/class36/rtl/myqam.v
+# ** Warning: (vsim-3722) C:/class/class36/rtl/BoardTst.v(22): [TFMPC] - Missing connection for port 'mult_i'.
+# ** Warning: (vsim-3722) C:/class/class36/rtl/BoardTst.v(22): [TFMPC] - Missing connection for port 'mult_q'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /tb_BoardTst/BoardTst/myqam/nco/nco_ii_0/ux000/<protected> File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/220model.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /tb_BoardTst/BoardTst/myqam/nco/nco_ii_0/ux0120/<protected> File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /tb_BoardTst/BoardTst/myqam/nco/nco_ii_0/ux0121/<protected> File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /tb_BoardTst/BoardTst/myqam/nco/nco_ii_0/ux710isdr/<protected> File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/220model.v
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3016) C:/class/class36/prj/ip/mult19_10.v(54): Port type is incompatible with connection (port 'clock').
+#    Time: 0 ps  Iteration: 0  Instance: /tb_BoardTst/BoardTst/myqam/mult19_10i/lpm_mult_component File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/220model.v
+# ** Warning: (vsim-3016) C:/class/class36/prj/ip/mult19_10.v(54): Port type is incompatible with connection (port 'clock').
+#    Time: 0 ps  Iteration: 0  Instance: /tb_BoardTst/BoardTst/myqam/mult19_10q/lpm_mult_component File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/220model.v
+# ** Warning: Design size of 20322 statements exceeds ModelSim Altera Starter recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 60000  Instance: tb_BoardTst.BoardTst.pll_inst.altpll_component.cycloneiii_pll.pll3
+# Break key hit
+# Simulation stop requested.
+# End time: 10:53:13 on Jun 03,2020, Elapsed time: 1:44:10
+# Errors: 0, Warnings: 63

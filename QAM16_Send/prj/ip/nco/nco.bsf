@@ -1,0 +1,106 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 288 200)
+	(text "nco" (rect 134 -1 148 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 184 20 196)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk" (rect 0 0 10 12)(font "Arial" (font_size 8)))
+		(text "clk" (rect 4 61 22 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 96 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "clken" (rect 0 0 20 12)(font "Arial" (font_size 8)))
+		(text "clken" (rect 4 101 34 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 96 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "phi_inc_i[36..0]" (rect 0 0 59 12)(font "Arial" (font_size 8)))
+		(text "phi_inc_i[36..0]" (rect 4 117 100 128)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 96 128)(line_width 3))
+	)
+	(port
+		(pt 0 168)
+		(input)
+		(text "reset_n" (rect 0 0 30 12)(font "Arial" (font_size 8)))
+		(text "reset_n" (rect 4 157 46 168)(font "Arial" (font_size 8)))
+		(line (pt 0 168)(pt 96 168)(line_width 1))
+	)
+	(port
+		(pt 288 72)
+		(output)
+		(text "fsin_o[9..0]" (rect 0 0 44 12)(font "Arial" (font_size 8)))
+		(text "fsin_o[9..0]" (rect 230 61 302 72)(font "Arial" (font_size 8)))
+		(line (pt 288 72)(pt 192 72)(line_width 3))
+	)
+	(port
+		(pt 288 88)
+		(output)
+		(text "fcos_o[9..0]" (rect 0 0 48 12)(font "Arial" (font_size 8)))
+		(text "fcos_o[9..0]" (rect 226 77 298 88)(font "Arial" (font_size 8)))
+		(line (pt 288 88)(pt 192 88)(line_width 3))
+	)
+	(port
+		(pt 288 104)
+		(output)
+		(text "out_valid" (rect 0 0 35 12)(font "Arial" (font_size 8)))
+		(text "out_valid" (rect 242 93 296 104)(font "Arial" (font_size 8)))
+		(line (pt 288 104)(pt 192 104)(line_width 1))
+	)
+	(drawing
+		(text "clk" (rect 81 43 180 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 101 67 220 144)(font "Arial" (color 0 0 0)))
+		(text "in" (rect 87 83 186 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clken" (rect 101 107 232 224)(font "Arial" (color 0 0 0)))
+		(text "phi_inc_i" (rect 101 123 256 256)(font "Arial" (color 0 0 0)))
+		(text "out" (rect 193 43 404 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "fsin_o" (rect 162 67 360 144)(font "Arial" (color 0 0 0)))
+		(text "fcos_o" (rect 159 83 354 176)(font "Arial" (color 0 0 0)))
+		(text "out_valid" (rect 150 99 354 208)(font "Arial" (color 0 0 0)))
+		(text "rst" (rect 81 139 180 291)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 101 163 244 336)(font "Arial" (color 0 0 0)))
+		(text " nco " (rect 270 184 570 378)(font "Arial" ))
+		(line (pt 96 32)(pt 192 32)(line_width 1))
+		(line (pt 192 32)(pt 192 184)(line_width 1))
+		(line (pt 96 184)(pt 192 184)(line_width 1))
+		(line (pt 96 32)(pt 96 184)(line_width 1))
+		(line (pt 97 52)(pt 97 76)(line_width 1))
+		(line (pt 98 52)(pt 98 76)(line_width 1))
+		(line (pt 97 92)(pt 97 132)(line_width 1))
+		(line (pt 98 92)(pt 98 132)(line_width 1))
+		(line (pt 191 52)(pt 191 108)(line_width 1))
+		(line (pt 190 52)(pt 190 108)(line_width 1))
+		(line (pt 97 148)(pt 97 172)(line_width 1))
+		(line (pt 98 148)(pt 98 172)(line_width 1))
+		(line (pt 0 0)(pt 288 0)(line_width 1))
+		(line (pt 288 0)(pt 288 200)(line_width 1))
+		(line (pt 0 200)(pt 288 200)(line_width 1))
+		(line (pt 0 0)(pt 0 200)(line_width 1))
+	)
+)

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jun 17 16:55:17 2020
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : QamCarrier
+Top-level Entity Name : BoardTst
+Family : Cyclone IV E
+Total logic elements : 7,963
+    Total combinational functions : 5,767
+    Dedicated logic registers : 6,663
+Total registers : 6663
+Total pins : 56
+Total virtual pins : 0
+Total memory bits : 919,898
+Embedded Multiplier 9-bit elements : 14
+Total PLLs : 1

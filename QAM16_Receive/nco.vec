@@ -1,0 +1,25 @@
+% units default to ns %
+RADIX DEC ;
+START 0 ;
+STOP 5185 ;
+INTERVAL 5 ;
+INPUTS clk ;
+PATTERN
+0 1 ;           % relative vector values %
+% CLOCK ticks every 10 ns %
+INPUTS reset_n;
+PATTERN
+0>    1
+69>  0 ;
+INPUTS clken;
+PATTERN
+0> 0
+90>  1 ;
+INPUTS phi_inc_i[36..0];
+PATTERN
+0> 34359738368;
+INPUTS freq_mod_i[36..0];
+PATTERN
+0> 0
+2500> 0;
+OUTPUTS fsin_o[9..0] fcos_o[9..0]; 

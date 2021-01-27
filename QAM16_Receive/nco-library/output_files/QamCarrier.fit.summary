@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Mar 22 17:50:21 2020
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : QamCarrier
+Top-level Entity Name : QamCarrier
+Family : Cyclone IV E
+Device : EP4CE40F23C8
+Timing Models : Final
+Total logic elements : 6,787 / 39,600 ( 17 % )
+    Total combinational functions : 5,921 / 39,600 ( 15 % )
+    Dedicated logic registers : 6,004 / 39,600 ( 15 % )
+Total registers : 6004
+Total pins : 102 / 329 ( 31 % )
+Total virtual pins : 0
+Total memory bits : 2,634 / 1,161,216 ( < 1 % )
+Embedded Multiplier 9-bit elements : 14 / 232 ( 6 % )
+Total PLLs : 0 / 4 ( 0 % )

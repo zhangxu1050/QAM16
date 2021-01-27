@@ -1,0 +1,921 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1592383270
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+IlYeT4g5JJ_zk0TFd`h3jF1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1592364439
+8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/altera_avalon_sc_fifo.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/altera_avalon_sc_fifo.v
+Z4 L0 21
+Z5 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z6 !s108 1592383270.000000
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/altera_avalon_sc_fifo.v|
+!i113 1
+Eauk_dspip_avalon_streaming_controller_hpfir
+R3
+Z7 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z10 8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd
+Z11 FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd
+l0
+L41
+VAX@R2A^:7PkefK_I^]g792
+!s100 ORMaER9G]`b[YkFGoXo<C3
+Z12 OV;C;10.4d;61
+32
+Z13 !s110 1592383269
+!i10b 1
+Z14 !s108 1592383268.000000
+Z15 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd|
+Z16 !s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd|
+!i113 1
+Z17 tExplicit 1
+Astruct
+R7
+R8
+R9
+DEx4 work 43 auk_dspip_avalon_streaming_controller_hpfir 0 22 AX@R2A^:7PkefK_I^]g792
+l72
+L64
+V_M9A:D_3:lLClOi_=YHE[0
+!s100 MWO51>Fz`WN=CIY16D1gH2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+Eauk_dspip_avalon_streaming_sink_hpfir
+R3
+Z18 DPx9 altera_mf 20 altera_mf_components 0 22 JIZVPUohD7dNa?8:C5^LG2
+Z19 DPx4 work 24 auk_dspip_math_pkg_hpfir 0 22 Nc^`jH<XH7=o_4@meB;g^2
+Z20 DPx4 work 23 auk_dspip_lib_pkg_hpfir 0 22 Qg36SA@]mQLNJk_KY262N1
+Z21 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R8
+R9
+R0
+Z22 8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd
+Z23 FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd
+l0
+L56
+V^nLSiWe78Eik7b>U1lb;i2
+!s100 0WO5KznO2MM4IEKTLL4ea1
+R12
+32
+R13
+!i10b 1
+Z24 !s108 1592383269.000000
+Z25 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd|
+Z26 !s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd|
+!i113 1
+R17
+Artl
+R18
+R19
+R20
+R21
+R8
+R9
+DEx4 work 37 auk_dspip_avalon_streaming_sink_hpfir 0 22 ^nLSiWe78Eik7b>U1lb;i2
+l164
+L106
+VzAdih[RjfN@dJYLi`7lDb2
+!s100 aKlIFR2DezO>78LXQeZZW1
+R12
+32
+R13
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R17
+Eauk_dspip_avalon_streaming_source_hpfir
+R3
+R19
+R18
+R21
+R8
+R9
+R0
+Z27 8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_avalon_streaming_source_hpfir.vhd
+Z28 FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_avalon_streaming_source_hpfir.vhd
+l0
+L70
+VLLS_mV4c=XB861MJzeLj93
+!s100 z_E>RhDjTK@iSkAe6<CzM1
+R12
+32
+R13
+!i10b 1
+R24
+Z29 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_avalon_streaming_source_hpfir.vhd|
+Z30 !s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_avalon_streaming_source_hpfir.vhd|
+!i113 1
+R17
+Artl
+R19
+R18
+R21
+R8
+R9
+DEx4 work 39 auk_dspip_avalon_streaming_source_hpfir 0 22 LLS_mV4c=XB861MJzeLj93
+l190
+L109
+VOFn_5RZadOGY3gAMG@DNe0
+!s100 9_^:d_>A;JGb2ekO`XAiL1
+R12
+32
+R13
+!i10b 1
+R24
+R29
+R30
+!i113 1
+R17
+Pauk_dspip_lib_pkg_hpfir
+R19
+R21
+R8
+R9
+R3
+R0
+8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_lib_pkg_hpfir.vhd
+FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_lib_pkg_hpfir.vhd
+l0
+L22
+VQg36SA@]mQLNJk_KY262N1
+!s100 f?>LI6^Y:?0:4C>aOS6?X2
+R12
+32
+Z31 !s110 1592383268
+!i10b 1
+R14
+!s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_lib_pkg_hpfir.vhd|
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_lib_pkg_hpfir.vhd|
+!i113 1
+R17
+Pauk_dspip_math_pkg_hpfir
+R21
+R8
+R9
+R3
+R0
+Z32 8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_math_pkg_hpfir.vhd
+Z33 FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_math_pkg_hpfir.vhd
+l0
+L54
+VNc^`jH<XH7=o_4@meB;g^2
+!s100 @O6TWU38[<`Y=f_oja2am1
+R12
+32
+b1
+R31
+!i10b 1
+Z34 !s108 1592383267.000000
+Z35 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_math_pkg_hpfir.vhd|
+Z36 !s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_math_pkg_hpfir.vhd|
+!i113 1
+R17
+Bbody
+R19
+R21
+R8
+R9
+l0
+L131
+VY]cA4kKm@gZYg>e;KHAHm0
+!s100 EDZNSThdcYV1lkL7HbnIz0
+R12
+32
+R31
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R17
+Eauk_dspip_roundsat_hpfir
+R3
+R21
+R8
+R9
+R0
+Z37 8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_roundsat_hpfir.vhd
+Z38 FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_roundsat_hpfir.vhd
+l0
+L39
+V[b3Oh0b4z598HLTmAKSR71
+!s100 S`Ha]KjQXV0CDDgljgCX;0
+R12
+32
+R1
+!i10b 1
+R24
+Z39 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_roundsat_hpfir.vhd|
+Z40 !s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/auk_dspip_roundsat_hpfir.vhd|
+!i113 1
+R17
+Abeh
+R21
+R8
+R9
+DEx4 work 24 auk_dspip_roundsat_hpfir 0 22 [b3Oh0b4z598HLTmAKSR71
+l66
+L57
+V`T80QJDVU`Wd?BfZKB6>m2
+!s100 SAz6VWg0=:KiPPFk<lih43
+R12
+32
+R1
+!i10b 1
+R24
+R39
+R40
+!i113 1
+R17
+vBitSync
+Z41 !s110 1592383277
+!i10b 1
+!s100 APNH_8>N1VOB<3Zj=H@Dc1
+IzXCzDXY6;kPl75eXZ82SB2
+R2
+R0
+w1591273013
+8C:/Users/Administrator/Desktop/QamCarrierDD/BitSync.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/BitSync.v
+L0 2
+R5
+r1
+!s85 0
+31
+Z42 !s108 1592383277.000000
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/BitSync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD|C:/Users/Administrator/Desktop/QamCarrierDD/BitSync.v|
+!i113 1
+Z43 o-vlog01compat -work work
+Z44 !s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/QamCarrierDD
+n@bit@sync
+vBoardTst
+Z45 !s110 1592383278
+!i10b 1
+!s100 <[EG6<kUUbFgl]3>CZ7EO0
+Im^zAXH`b967?bI@e22MI63
+R2
+R0
+w1592144271
+8C:/Users/Administrator/Desktop/QamCarrierDD/source/BoardTst.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/source/BoardTst.v
+L0 1
+R5
+r1
+!s85 0
+31
+Z46 !s108 1592383278.000000
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/source/BoardTst.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/source|C:/Users/Administrator/Desktop/QamCarrierDD/source/BoardTst.v|
+!i113 1
+R43
+Z47 !s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/QamCarrierDD/source
+n@board@tst
+vDD
+Z48 !s110 1592383276
+!i10b 1
+!s100 =B5THe@WKRb`4C_DgIQo<2
+ILl`X=X3cZB56VZDHBZd?d0
+R2
+R0
+w1415102354
+8C:/Users/Administrator/Desktop/QamCarrierDD/source/DD.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/source/DD.v
+L0 2
+R5
+r1
+!s85 0
+31
+Z49 !s108 1592383276.000000
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/source/DD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/source|C:/Users/Administrator/Desktop/QamCarrierDD/source/DD.v|
+!i113 1
+R43
+R47
+n@d@d
+vDecision
+Z50 !s110 1592383274
+!i10b 1
+!s100 mJHo0QT<]9[`TS_HlG@?`0
+I0<K?:B4?6cN2C7lSabVG@1
+R2
+R0
+w1584626128
+8C:/Users/Administrator/Desktop/QamCarrierDD/source/Decision.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/source/Decision.v
+R4
+R5
+r1
+!s85 0
+31
+Z51 !s108 1592383273.000000
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/source/Decision.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/source|C:/Users/Administrator/Desktop/QamCarrierDD/source/Decision.v|
+!i113 1
+R43
+R47
+n@decision
+vDeCodeMap
+Z52 !s110 1592383273
+!i10b 1
+!s100 45cP<GKKYH_:=TUm5NEYI3
+I6C70cTaRFU;YbUKkN??m]1
+R2
+R0
+w1584693191
+8C:/Users/Administrator/Desktop/QamCarrierDD/source/DeCodeMap.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/source/DeCodeMap.v
+L0 2
+R5
+r1
+!s85 0
+31
+R51
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/source/DeCodeMap.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/source|C:/Users/Administrator/Desktop/QamCarrierDD/source/DeCodeMap.v|
+!i113 1
+R43
+R47
+n@de@code@map
+Edspba_delay
+R3
+Z53 DPx4 work 21 dspba_library_package 0 22 A1^MLCGY]=ae?574TdE[D1
+R8
+R9
+R0
+Z54 8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/dspba_library.vhd
+Z55 FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/dspba_library.vhd
+l0
+L17
+V0e8fGlchn2Dom3mP5lSgY1
+!s100 ^TiG3k=nd2oZ:zDO86VNb1
+R12
+32
+Z56 !s110 1592383267
+!i10b 1
+R34
+Z57 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/dspba_library.vhd|
+Z58 !s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/dspba_library.vhd|
+!i113 1
+R17
+Adelay
+R53
+R8
+R9
+DEx4 work 11 dspba_delay 0 22 0e8fGlchn2Dom3mP5lSgY1
+l36
+L33
+VHWGV4ZnkUdHh^gUZL227@3
+!s100 j]g:M?2k]LeVG21D9S<fR1
+R12
+32
+R56
+!i10b 1
+R34
+R57
+R58
+!i113 1
+R17
+Pdspba_library_package
+R8
+R9
+R3
+R0
+8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/dspba_library_package.vhd
+FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/dspba_library_package.vhd
+l0
+L16
+VA1^MLCGY]=ae?574TdE[D1
+!s100 Kkg3D5QbeHdNM2YFz@ZF=2
+R12
+32
+R56
+!i10b 1
+R34
+!s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/dspba_library_package.vhd|
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/dspba_library_package.vhd|
+!i113 1
+R17
+Edspba_sync_reg
+R3
+R53
+R21
+R8
+R9
+R0
+R54
+R55
+l0
+L91
+V_7JWbMFH40AeYzBY=d9>A2
+!s100 LBWk;n`f_bk?X_QJICA5i3
+R12
+32
+R56
+!i10b 1
+R34
+R57
+R58
+!i113 1
+R17
+Async_reg
+R53
+R21
+R8
+R9
+DEx4 work 14 dspba_sync_reg 0 22 _7JWbMFH40AeYzBY=d9>A2
+l134
+L115
+V:lYifX@m=Rhm3o6o[[a2G3
+!s100 EMlEXT<EU621V40LT:5fK3
+R12
+32
+R56
+!i10b 1
+R34
+R57
+R58
+!i113 1
+R17
+vErrorLp
+Z59 !s110 1592383275
+!i10b 1
+!s100 AdFj<gHM38g^I6b_ibWKE3
+INP@hOY_9NCLOGhaV4D:mM1
+R2
+R0
+w1591349540
+8C:/Users/Administrator/Desktop/QamCarrierDD/source/ErrorLp.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/source/ErrorLp.v
+L0 2
+R5
+r1
+!s85 0
+31
+Z60 !s108 1592383275.000000
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/source/ErrorLp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/source|C:/Users/Administrator/Desktop/QamCarrierDD/source/ErrorLp.v|
+!i113 1
+R43
+R47
+n@error@lp
+Efir
+R3
+R19
+R21
+R20
+R8
+R9
+R0
+Z61 8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir.vhd
+Z62 FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir.vhd
+l0
+L19
+V?iFV8bNa@l`5]3`JXY1g<2
+!s100 5^5R[96dGHa:gAXS9Mj:21
+R12
+32
+Z63 !s110 1592383272
+!i10b 1
+Z64 !s108 1592383271.000000
+Z65 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir.vhd|
+Z66 !s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir.vhd|
+!i113 1
+R17
+Asyn
+R19
+R21
+R20
+R8
+R9
+Z67 DEx4 work 3 fir 0 22 ?iFV8bNa@l`5]3`JXY1g<2
+l56
+L33
+V>WgE`Uc]8E7UAF<2eIh?j2
+!s100 6@PggoXFlmOhQ57IYiI<:3
+R12
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 1
+R17
+Efir_ast
+R3
+R19
+R20
+R21
+R8
+R9
+R0
+Z68 8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir_ast.vhd
+Z69 FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir_ast.vhd
+l0
+L9
+V@BJYJBaMEmRQM1]mdK;La2
+!s100 :SShOEcb^c0IKIX9aCBA62
+R12
+32
+Z70 !s110 1592383271
+!i10b 1
+R64
+Z71 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir_ast.vhd|
+Z72 !s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir_ast.vhd|
+!i113 1
+R17
+Astruct
+R19
+R20
+R21
+R8
+R9
+DEx4 work 7 fir_ast 0 22 @BJYJBaMEmRQM1]mdK;La2
+l88
+L55
+VCUIQK=cFbPPER1;m<QX8H0
+!s100 _K7TV;Inj?VGMM[zE>JL73
+R12
+32
+R70
+!i10b 1
+R64
+R71
+R72
+!i113 1
+R17
+vfir_lpf
+R52
+!i10b 1
+!s100 oTDYV]b?5[;SNCX9>Sa243
+Id?NBI0lfG[S=h]ImliUAT2
+R2
+R0
+w1415103495
+8C:/Users/Administrator/Desktop/QamCarrierDD/fir_lpf.vo
+FC:/Users/Administrator/Desktop/QamCarrierDD/fir_lpf.vo
+Z73 L0 31
+R5
+r1
+!s85 0
+31
+R51
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_lpf.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD|C:/Users/Administrator/Desktop/QamCarrierDD/fir_lpf.vo|
+!i113 1
+R43
+R44
+Efir_rtl_core
+R3
+Z74 DPx3 lpm 14 lpm_components 0 22 PJ28@G3kVfi:?TUaV^5XM3
+R18
+R53
+Z75 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R21
+R8
+R9
+R0
+Z76 8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir_rtl_core.vhd
+Z77 FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir_rtl_core.vhd
+l0
+L34
+VIWmlgAz3I[d?MP9Y;^Ln81
+!s100 =Ia[PSMo0n@_H3GYkHUUM0
+R12
+32
+R1
+!i10b 1
+R6
+Z78 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir_rtl_core.vhd|
+Z79 !s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir_rtl_core.vhd|
+!i113 1
+R17
+Anormal
+R74
+R18
+R53
+R75
+R21
+R8
+R9
+DEx4 work 12 fir_rtl_core 0 22 IWmlgAz3I[d?MP9Y;^Ln81
+l642
+L47
+VKc`SE^`K:Fjj[0FC9kn;]0
+!s100 ghUK22C2dkHE3IN0jJNk:2
+R12
+32
+R70
+!i10b 1
+R6
+R78
+R79
+!i113 1
+R17
+Efir_tb
+R3
+R21
+R8
+R9
+R0
+Z80 8C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir_tb.vhd
+Z81 FC:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir_tb.vhd
+l0
+L20
+VA?k5CA<9V:HRGIZ5_8P2X1
+!s100 TWT_i9@=b^g@E]4ogO;Ve2
+R12
+32
+R63
+!i10b 1
+Z82 !s108 1592383272.000000
+Z83 !s90 -reportprogress|300|C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir_tb.vhd|
+Z84 !s107 C:/Users/Administrator/Desktop/QamCarrierDD/fir_sim/fir_tb.vhd|
+!i113 1
+R17
+Artl
+R19
+R20
+R67
+R21
+R8
+R9
+DEx4 work 6 fir_tb 0 22 A?k5CA<9V:HRGIZ5_8P2X1
+l140
+L54
+V9X49?dQ_K?M6HoYEfdDW<0
+!s100 lWNjL>B<UMJ1Hc71?CeEd0
+R12
+32
+R63
+!i10b 1
+R82
+R83
+R84
+!i113 1
+R17
+vFpgaGardner
+R59
+!i10b 1
+!s100 G<<^fLLPiS5ai]SaSEMKa1
+IfUK6PMU;2N<dXelo2]n2;1
+R2
+R0
+w1415439546
+8C:/Users/Administrator/Desktop/QamCarrierDD/source/FpgaGardner.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/source/FpgaGardner.v
+L0 2
+R5
+r1
+!s85 0
+31
+R60
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/source/FpgaGardner.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/source|C:/Users/Administrator/Desktop/QamCarrierDD/source/FpgaGardner.v|
+!i113 1
+R43
+R47
+n@fpga@gardner
+vgnco
+R50
+!i10b 1
+!s100 1ZMWQ>n9hXiLeR<3zQSRe0
+I:gS9I`Z5KaO_2DIl2DzZj2
+R2
+R0
+w1415432094
+8C:/Users/Administrator/Desktop/QamCarrierDD/source/gnco.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/source/gnco.v
+L0 2
+R5
+r1
+!s85 0
+31
+Z85 !s108 1592383274.000000
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/source/gnco.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/source|C:/Users/Administrator/Desktop/QamCarrierDD/source/gnco.v|
+!i113 1
+R43
+R47
+vInterpolateFilter
+R48
+!i10b 1
+!s100 e]9IVK1z;8iYU5i?6go>?0
+IJmnD3aJ7JJN<[bU7;6OZ40
+R2
+R0
+w1415432203
+8C:/Users/Administrator/Desktop/QamCarrierDD/source/InterpolateFilter.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/source/InterpolateFilter.v
+L0 2
+R5
+r1
+!s85 0
+31
+R49
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/source/InterpolateFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/source|C:/Users/Administrator/Desktop/QamCarrierDD/source/InterpolateFilter.v|
+!i113 1
+R43
+R47
+n@interpolate@filter
+vLoopFilter
+R41
+!i10b 1
+!s100 IcM7>BZ;6ffl=kIPCa9RW2
+Ib@KCmPn[KYlBnfm5LTf4P0
+R2
+R0
+w1591926504
+8C:/Users/Administrator/Desktop/QamCarrierDD/source/LoopFilter.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/source/LoopFilter.v
+L0 2
+R5
+r1
+!s85 0
+31
+R49
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/source/LoopFilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/source|C:/Users/Administrator/Desktop/QamCarrierDD/source/LoopFilter.v|
+!i113 1
+R43
+R47
+n@loop@filter
+vmult18_16
+R50
+!i10b 1
+!s100 Fk=5zg5`znibkVR4IhmIh1
+IAjnY5A9T3AQ<2o8[NP3;=1
+R2
+R0
+w1415373096
+8C:/Users/Administrator/Desktop/QamCarrierDD/mult18_16.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/mult18_16.v
+L0 39
+R5
+r1
+!s85 0
+31
+R85
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/mult18_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD|C:/Users/Administrator/Desktop/QamCarrierDD/mult18_16.v|
+!i113 1
+R43
+R44
+vmult8_8
+R41
+!i10b 1
+!s100 6:6M025QTBRWXZjPBJ@U83
+IVIIFF1=6YeBJUfck]c4fd2
+R2
+R0
+w1590997396
+8C:/Users/Administrator/Desktop/QamCarrierDD/mult8_8.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/mult8_8.v
+Z86 L0 40
+R5
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/mult8_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD|C:/Users/Administrator/Desktop/QamCarrierDD/mult8_8.v|
+!i113 1
+R43
+R44
+vnco
+R63
+!i10b 1
+!s100 hShCnXhk4CB_UOf0k_Oib1
+IcSnIRW=5kQH9kc`i6n_MW1
+R2
+R0
+w1415103383
+8C:/Users/Administrator/Desktop/QamCarrierDD/nco.vo
+FC:/Users/Administrator/Desktop/QamCarrierDD/nco.vo
+R73
+R5
+r1
+!s85 0
+31
+R82
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/nco.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD|C:/Users/Administrator/Desktop/QamCarrierDD/nco.vo|
+!i113 1
+R43
+R44
+vpll
+R45
+!i10b 1
+!s100 GIj1FVOSEGHgmCD0Ro^z?3
+IYe6eQ=`m1a[[iSXh2m<Sl1
+R2
+R0
+w1592383125
+8C:/Users/Administrator/Desktop/QamCarrierDD/pll.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/pll.v
+R86
+R5
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD|C:/Users/Administrator/Desktop/QamCarrierDD/pll.v|
+!i113 1
+R43
+R44
+vpll_altpll
+Z87 !s110 1592383279
+!i10b 1
+!s100 i:L[zB[mJY4F;hIa8K`401
+IbckaH_0bFeEGi:C]^V;cH1
+R2
+R0
+w1592383155
+8C:/Users/Administrator/Desktop/QamCarrierDD/db/pll_altpll.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/db/pll_altpll.v
+L0 30
+R5
+r1
+!s85 0
+31
+R46
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/db|C:/Users/Administrator/Desktop/QamCarrierDD/db/pll_altpll.v|
+!i113 1
+R43
+!s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/QamCarrierDD/db
+vQamCarrier
+R48
+!i10b 1
+!s100 ^Lz>Ojn`6hdX7=BnZ;2>@1
+IZJj;@Dzi>UP9?PYQN0C[Q1
+R2
+R0
+w1592380595
+8C:/Users/Administrator/Desktop/QamCarrierDD/source/QamCarrier.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/source/QamCarrier.v
+L0 2
+R5
+r1
+!s85 0
+31
+R49
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/source/QamCarrier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/source|C:/Users/Administrator/Desktop/QamCarrierDD/source/QamCarrier.v|
+!i113 1
+R43
+R47
+n@qam@carrier
+vtb_BoardTst
+R87
+!i10b 1
+!s100 86>1mPaCCQz:j6XKOIEVS0
+ImiR7Y2fZFzFE1P=bGA3fj0
+R2
+R0
+w1592381741
+8C:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim/tb_BoardTst.v
+FC:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim/tb_BoardTst.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1592383279.000000
+!s107 C:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim/tb_BoardTst.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim|C:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim/tb_BoardTst.v|
+!i113 1
+R43
+!s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/QamCarrierDD/simulation/modelsim
+ntb_@board@tst

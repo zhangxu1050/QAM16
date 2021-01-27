@@ -1,0 +1,244 @@
+Flow report for myqam
+Wed Jun 17 16:25:19 2020
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Wed Jun 17 16:25:19 2020           ;
+; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
+; Revision Name                      ; myqam                                           ;
+; Top-level Entity Name              ; BoardTst                                        ;
+; Family                             ; Cyclone IV E                                    ;
+; Device                             ; EP4CE115F29C7                                   ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 2,912                                           ;
+;     Total combinational functions  ; 2,056                                           ;
+;     Dedicated logic registers      ; 2,616                                           ;
+; Total registers                    ; 2616                                            ;
+; Total pins                         ; 33                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 459,812                                         ;
+; Embedded Multiplier 9-bit elements ; 8                                               ;
+; Total PLLs                         ; 1                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 06/17/2020 16:24:09 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; myqam               ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                            ;
++--------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+; Assignment Name                      ; Value                                                                                                                               ; Default Value ; Entity Name ; Section Id       ;
++--------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+; COMPILER_SIGNATURE_ID                ; 246928001468445.159238224912664                                                                                                     ; --            ; --          ; --               ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                                                  ; --            ; --          ; tb_BoardTst      ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                                                  ; --            ; --          ; tb_BitTrans      ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                                                  ; --            ; --          ; tb_myqam         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                                                  ; --            ; --          ; tb_fir           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                                                  ; --            ; --          ; tb_nco           ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_BoardTst                                                                                                                         ; --            ; --          ; eda_simulation   ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                                                                                         ; --            ; --          ; eda_simulation   ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)                                                                                                           ; <None>        ; --          ; --               ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                                                                                     ; --            ; --          ; eda_simulation   ;
+; EDA_TEST_BENCH_FILE                  ; ../testbench/tb_BoardTst.v                                                                                                          ; --            ; --          ; tb_BoardTst      ;
+; EDA_TEST_BENCH_FILE                  ; ../testbench/tb_BitTrans.v                                                                                                          ; --            ; --          ; tb_BitTrans      ;
+; EDA_TEST_BENCH_FILE                  ; ../rtl/BitTrans.v                                                                                                                   ; --            ; --          ; tb_BitTrans      ;
+; EDA_TEST_BENCH_FILE                  ; ../testbench/tb_myqam.v                                                                                                             ; --            ; --          ; tb_myqam         ;
+; EDA_TEST_BENCH_FILE                  ; ../testbench/tb_fir.v                                                                                                               ; --            ; --          ; tb_fir           ;
+; EDA_TEST_BENCH_FILE                  ; ../testbench/tb_nco.v                                                                                                               ; --            ; --          ; tb_nco           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_BoardTst                                                                                                                         ; --            ; --          ; tb_BoardTst      ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_BitTrans                                                                                                                         ; --            ; --          ; tb_BitTrans      ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_myqam                                                                                                                            ; --            ; --          ; tb_myqam         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_fir                                                                                                                              ; --            ; --          ; tb_fir           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_nco                                                                                                                              ; --            ; --          ; tb_nco           ;
+; EDA_TEST_BENCH_NAME                  ; tb_BitTrans                                                                                                                         ; --            ; --          ; eda_simulation   ;
+; EDA_TEST_BENCH_NAME                  ; tb_fir                                                                                                                              ; --            ; --          ; eda_simulation   ;
+; EDA_TEST_BENCH_NAME                  ; tb_nco                                                                                                                              ; --            ; --          ; eda_simulation   ;
+; EDA_TEST_BENCH_NAME                  ; tb_myqam                                                                                                                            ; --            ; --          ; eda_simulation   ;
+; EDA_TEST_BENCH_NAME                  ; tb_BoardTst                                                                                                                         ; --            ; --          ; eda_simulation   ;
+; EDA_TIME_SCALE                       ; 1 ps                                                                                                                                ; --            ; --          ; eda_simulation   ;
+; ENABLE_SIGNALTAP                     ; On                                                                                                                                  ; --            ; --          ; --               ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                                                                                                  ; --            ; --          ; --               ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                                                                                                   ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/../../nco.qsys                                                                                                    ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/nco.v                                                                                                             ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/mentor/sid_2c_1p.v                                                                                     ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/aldec/sid_2c_1p.v                                                                                      ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/mentor/asj_nco_mob_rw.v                                                                                ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/aldec/asj_nco_mob_rw.v                                                                                 ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/mentor/asj_gar.v                                                                                       ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/aldec/asj_gar.v                                                                                        ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/mentor/asj_nco_isdr.v                                                                                  ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/aldec/asj_nco_isdr.v                                                                                   ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/mentor/asj_nco_apr_dxx.v                                                                               ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/aldec/asj_nco_apr_dxx.v                                                                                ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/mentor/segment_arr_tdl.v                                                                               ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/aldec/segment_arr_tdl.v                                                                                ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/mentor/segment_sel.v                                                                                   ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/aldec/segment_sel.v                                                                                    ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/mentor/asj_dxx_g.v                                                                                     ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/aldec/asj_dxx_g.v                                                                                      ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/mentor/asj_dxx.v                                                                                       ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/aldec/asj_dxx.v                                                                                        ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/mentor/asj_xnqg.v                                                                                      ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/aldec/asj_xnqg.v                                                                                       ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/mentor/asj_nco_as_m_cen.v                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/aldec/asj_nco_as_m_cen.v                                                                               ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/mentor/asj_altqmcpipe.v                                                                                ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/aldec/asj_altqmcpipe.v                                                                                 ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/nco_nco_ii_0_sin.hex                                                                                   ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/nco_nco_ii_0_cos.hex                                                                                   ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/nco_nco_ii_0.v                                                                                         ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/nco_nco_ii_0_tb.vhd                                                                                    ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/c_model/model_wrapper.cpp                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/c_model/nco_model.cpp                                                                                  ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/simulation/submodules/c_model/nco_model.h                                                                                    ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/synthesis/../nco.cmp                                                                                                         ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/nco/synthesis/../../nco.qsys                                                                                                     ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/bit_source_bb.v                                                                                                                  ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf.cmp                                                                                                                      ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/dspba_library_package.vhd                                                                                            ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/dspba_library.vhd                                                                                                    ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/auk_dspip_math_pkg_hpfir.vhd                                                                                         ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/auk_dspip_lib_pkg_hpfir.vhd                                                                                          ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd                                                                      ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd                                                                            ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/auk_dspip_avalon_streaming_source_hpfir.vhd                                                                          ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/auk_dspip_roundsat_hpfir.vhd                                                                                         ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/altera_avalon_sc_fifo.v                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/fir_lpf_rtl_core.vhd                                                                                                 ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/fir_lpf_ast.vhd                                                                                                      ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/fir_lpf.vhd                                                                                                          ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/fir_lpf_nativelink.tcl                                                                                               ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/fir_lpf_msim.tcl                                                                                                     ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/fir_lpf_tb.vhd                                                                                                       ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/fir_lpf_mlab.m                                                                                                       ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/fir_lpf_model.m                                                                                                      ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/fir_lpf_coef_int.txt                                                                                                 ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/fir_lpf_input.txt                                                                                                    ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/fir_lpf_sim/fir_lpf_param.txt                                                                                                    ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/mult19_10_bb.v                                                                                                                   ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/pll_bb.v                                                                                                                         ; --            ; --          ; --               ;
+; MISC_FILE                            ; ip/pll.ppf                                                                                                                          ; --            ; --          ; --               ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                                                                                   ; --            ; --          ; --               ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                                                                                   ; --            ; --          ; --               ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                                                                          ; --            ; --          ; --               ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                                                                          ; --            ; --          ; --               ;
+; PARTITION_COLOR                      ; 16764057                                                                                                                            ; --            ; BoardTst    ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                                                                                                               ; --            ; BoardTst    ; Top              ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                                                                                                              ; --            ; BoardTst    ; Top              ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                                                                                                 ; --            ; --          ; --               ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                                                               ; --            ; --          ; --               ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                                                                                        ; --            ; --          ; --               ;
+; SLD_FILE                             ; ip/nco/synthesis/nco.debuginfo                                                                                                      ; --            ; --          ; --               ;
+; SLD_FILE                             ; db/stp1_auto_stripped.stp                                                                                                           ; --            ; --          ; --               ;
+; SLD_INFO                             ; QSYS_NAME nco HAS_SOPCINFO 1 GENERATION_ID 1591428618                                                                               ; --            ; nco         ; --               ;
+; SLD_NODE_CREATOR_ID                  ; 110                                                                                                                                 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_ENTITY_NAME                 ; sld_signaltap                                                                                                                       ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_BLOCK_TYPE=AUTO                                                                                                             ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_INFO=805334528                                                                                                             ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_POWER_UP_TRIGGER=0                                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                       ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                          ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                                      ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_BITS=11                                                                                                                   ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_BUFFER_FULL_STOP=1                                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INCREMENTAL_ROUTING=1                                                                                                           ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL=1                                                                                                                 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_IN_ENABLED=0                                                                                                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_PIPELINE=0                                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_PIPELINE=0                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_COUNTER_PIPELINE=0                                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                       ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SEGMENT_SIZE=16384                                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SAMPLE_DEPTH=16384                                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_DATA_BITS=28                                                                                                                    ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_BITS=28                                                                                                                 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_BITS=28                                                                                                       ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK_LENGTH=112                                                                                                       ; --            ; --          ; auto_signaltap_0 ;
+; SOPCINFO_FILE                        ; ip/nco/synthesis/../../nco.sopcinfo                                                                                                 ; --            ; --          ; --               ;
+; SPD_FILE                             ; ip/nco/simulation/../nco.spd                                                                                                        ; --            ; --          ; --               ;
+; SPD_FILE                             ; ip/fir_lpf.spd                                                                                                                      ; --            ; --          ; --               ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                                                                                  ; --            ; --          ; --               ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                                                                                  ; --            ; --          ; --               ;
+; TOP_LEVEL_ENTITY                     ; BoardTst                                                                                                                            ; myqam         ; --          ; --               ;
+; USE_SIGNALTAP_FILE                   ; output_files/stp1.stp                                                                                                               ; --            ; --          ; --               ;
++--------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:01:07     ; 1.0                     ; 5090 MB             ; 00:01:29                           ;
+; Total                ; 00:01:07     ; --                      ; --                  ; 00:01:29                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; RR58SHC1BTKG83M  ; Windows 8 ; 6.2        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off myqam -c myqam
+
+
+

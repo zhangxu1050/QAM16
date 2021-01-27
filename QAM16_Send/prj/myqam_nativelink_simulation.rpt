@@ -1,0 +1,22 @@
+Info: Start Nativelink Simulation process
+executing command line: ip-make-simscript --nativelink-mode --output-directory=myqam_iputf_input --spd=C:/class/class36/prj/ip/nco/nco.spd --spd=C:/class/class36/prj/ip/fir_lpf.spd 
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  RTL
+Family                :  cycloneive
+Quartus root          :  c:/altera/16.0/quartus/bin64/
+Quartus sim root      :  c:/altera/16.0/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  
+Sim SDF file          :  
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/16.0/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File myqam_run_msim_rtl_verilog.do already exists - backing up current file as myqam_run_msim_rtl_verilog.do.bak11
+Info: Spawning ModelSim-Altera Simulation software 
