@@ -13,7 +13,7 @@ module tb_BoardTst();
 	initial begin
         r_CLK	= 1'b1 ;
         forever begin
-            # 20 ;
+            # 10 ;
             r_CLK	<= ~r_CLK ;
         end
     end
